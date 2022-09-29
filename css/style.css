@@ -20,3 +20,14 @@ img {
     --ms_btn-blue: #2d64e6;
     --ms_btn-red: #cd3d0f;
 }
+
+/* HEADER */
+
+.header-top {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    /* DEBUG */
+    color: white;
+}
