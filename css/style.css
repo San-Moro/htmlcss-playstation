@@ -52,3 +52,18 @@ img {
     /* DEBUG */
     background-color: #bebcbb;
 }
+
+/* new-releases */
+#ms_new-releases {
+    background-color: var(--ms_bg-new-release);
+}
+
+/* playstation-plus */
+
+.ms_play-bnr {
+
+}
+
+.ms_play-bnr.plus {
+    background-color: var(--ms_bg-play-plus)
+}
