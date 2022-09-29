@@ -14,6 +14,7 @@ img {
     --ms_bg-new-release: #1f1f1f;
     --ms_bg-play-plus: #bebcbb;
     --ms_bg-play-now: #161c3b;
+    --ms_bg-footer: #00439c;
     /* colors buttons */
     --ms_btn-dark: #363636;
     --ms_btn-light: #f5f5f5;
@@ -73,4 +74,29 @@ img {
 .ms_play-bnr-now {
     background-color: var(--ms_bg-play-now);
     color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--ms_bg-footer);
+}
+
+/* footer-top */
+.ms_footer-top {
+    min-height: 500px;
+    color: white;
+    /* DEBUG */
+    border: 1px solid white;
+}
+
+/* footer-bottom */
+.ms_footer-bottom {
+    height: 200px;
+    color: white;
+    /* DEBUG */
+    border: 1px solid white;
+}
+
+.ms_footer-bottom img{
+    width: 15%;
 }
