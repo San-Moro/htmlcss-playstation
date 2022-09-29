@@ -1,0 +1,22 @@
+/* COMMON */
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* VARIABLES */
+:root {
+    /* colors */
+    --ms_bg-new-release: #1f1f1f;
+    --ms_bg-play-plus: #bebcbb;
+    --ms_bg-play-now: #161c3b;
+    /* colors buttons */
+    --ms_btn-dark: #363636;
+    --ms_btn-light: #f5f5f5;
+    --ms_btn-blue: #2d64e6;
+    --ms_btn-red: #cd3d0f;
+}
