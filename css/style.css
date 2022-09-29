@@ -31,3 +31,12 @@ img {
     /* DEBUG */
     color: white;
 }
+
+/* JUMBO */
+
+#jumbotron {
+    color: white;
+    /* DEBUG */
+    height: 500px;
+    background-color: grey;
+}
