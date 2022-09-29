@@ -43,3 +43,12 @@ img {
 
 /* MAIN */
 
+/* banner game section */
+
+#ms_banner { 
+    /* background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover; */
+    color: white;
+    /* DEBUG */
+    background-color: #bebcbb;
+}
