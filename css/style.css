@@ -185,6 +185,12 @@ li .fa-chevron-down:before {
     color: white;
 }
 
+/* hardware section - play-4  */
+
+.ms_hard-play-4 .card {
+    border: none;
+}
+
 /* playstation-plus-banner */
 
 .ms_play-bnr {
