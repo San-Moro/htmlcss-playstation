@@ -131,7 +131,14 @@ li .fa-chevron-down:before {
 
 /* MAIN */
 
-/* banner game section */
+/* games-section */
+
+.ms_game-card img:hover {
+    border: 2px solid var(--ms_btn-blue);
+    padding: .5em;
+}
+
+/* banner game it takes two */
 
 #ms_banner { 
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
