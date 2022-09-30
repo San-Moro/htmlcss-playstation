@@ -63,6 +63,12 @@ img {
     border-radius: 18px;
 }
 
+/* Utilities */
+.ms_text-p {
+    font-size: 1.6rem;
+}
+
+
 /* HEADER */
 
 header {
@@ -103,9 +109,6 @@ li .fa-chevron-down:before {
 }
 
 /* nav dx */
-
-/* button */
-
 /* icon */
 .fa-magnifying-glass:before, .fa-search:before {
     color: var(--ms_btn-dark);
@@ -115,10 +118,15 @@ li .fa-chevron-down:before {
 
 #ms_jumbotron {
     color: white;
-    padding-top: 100px;
-    /* DEBUG */
-    height: 500px;
-    background-color: grey;
+    padding-top: 25rem;
+    padding-bottom: 3rem;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ms_bg-jumbo {
+    background-image: url(../img/jumbo-bg.png);
 }
 
 /* MAIN */
