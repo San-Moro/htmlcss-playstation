@@ -68,6 +68,9 @@ img {
 .ms_size-p {
     font-size: 1.6rem;
 }
+.ms_size-p-s {
+    font-size: 1.2rem;
+}
 .ms_gray-p {
     color: #727272;
 }
@@ -166,8 +169,20 @@ li .fa-chevron-down:before {
 }
 
 /* new-releases */
-#ms_new-releases {
+.ms_new-releases {
     background-color: var(--ms_bg-new-release);
+    color: white;
+}
+
+/* card */
+.ms_new-releases .card {
+    border: none;
+    background-color: var(--ms_bg-new-release);
+}
+
+.ms_new-releases .card-body {
+    background-color: var(--ms_bg-new-release);
+    color: white;
 }
 
 /* playstation-plus-banner */
