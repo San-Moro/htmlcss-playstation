@@ -64,8 +64,12 @@ img {
 }
 
 /* Utilities */
-.ms_text-p {
+/* p */
+.ms_size-p {
     font-size: 1.6rem;
+}
+.ms_gray-p {
+    color: #727272;
 }
 
 
@@ -136,6 +140,21 @@ li .fa-chevron-down:before {
 .ms_game-card img:hover {
     border: 2px solid var(--ms_btn-blue);
     padding: .5em;
+}
+
+/* hardware section - play-5  */
+
+.ms_hard-play-5 h4 {
+    color:#0072ce;
+}
+
+.ms_hard-play-5 .card {
+    border: none;
+    border-radius: 0;
+}
+
+.ms_hard-play-5 .card:active {
+    border-bottom: 2px solid var(--ms_btn-blue);
 }
 
 /* banner game it takes two */
