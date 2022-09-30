@@ -160,7 +160,7 @@ li .fa-chevron-down:before {
 
 /* banner game it takes two */
 
-#ms_banner { 
+.ms_banner { 
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -191,21 +191,27 @@ li .fa-chevron-down:before {
     border: none;
 }
 
+
 /* playstation-plus-banner */
 
-.ms_play-bnr {
-
+.ms_play-bnr p{
+    font-size: 1.3rem;
 }
 
-.ms_play-bnr-plus {
+#plus {
     background-color: var(--ms_bg-play-plus);
 }
 
-/* playstation-plus-now */
+/* playstation-now-banner */
 
-.ms_play-bnr-now {
+#now {
     background-color: var(--ms_bg-play-now);
     color: white;
+}
+
+/* playstation-banner */
+.ms_play-bnr img.ms_logo-bnr {
+    width: 60%;
 }
 
 /* FOOTER */
