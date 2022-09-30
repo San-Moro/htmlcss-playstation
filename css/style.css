@@ -17,26 +17,105 @@ img {
     --ms_bg-footer: #00439c;
     /* colors buttons */
     --ms_btn-dark: #363636;
-    --ms_btn-light: #f5f5f5;
     --ms_btn-blue: #2d64e6;
     --ms_btn-red: #cd3d0f;
+    --ms_btn-gray: #d9dadc;
+    --ms_btn-light: #f5f5f5;
+    
+}
+
+/* Buttons */
+
+.ms_btn {
+    border-radius: 18px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.ms_btn-dark {
+    background-color: var(--ms_btn-dark);
+    border: 1px solid var(--ms_btn-dark);
+}
+
+.ms_btn-blue {
+    background-color: var(--ms_btn-blue);
+    border: 1px solid var(--ms_btn-blue);
+}
+
+.ms_btn-red {
+    background-color: var(--ms_btn-red);
+    border: 1px solid var(--ms_btn-red);
+}
+
+.ms_btn-gray {
+    font-size: 1.4rem;
+    color: var(--ms_btn-blue);
+    background-color: var(--ms_btn-gray);
+    border: 1px solid var(--ms_btn-gray);
+    border-radius: 18px;
+}
+
+.ms_btn-light {
+    font-size: 1.4rem;
+    color: black;
+    background-color: var(--ms_btn-light);
+    border: 1px solid var(--ms_btn-light);
+    border-radius: 18px;
 }
 
 /* HEADER */
 
-.header-top {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* header-top */
+.ms_header-top {
     background-color: black;
     width: 100%;
     height: 40px;
     line-height: 40px;
+    text-align: right;
     /* DEBUG */
     color: white;
+}
+
+.ms_header-top img {
+    width: 100px;
+}
+
+/* header-nav */
+
+.ms_header-nav li {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-right: .5em;
+}
+
+/* icon-nav-list */
+li .fa-chevron-down:before {
+    color: gray;
+    font-size: 1rem;
+}
+
+/* nav dx */
+
+/* button */
+
+/* icon */
+.fa-magnifying-glass:before, .fa-search:before {
+    color: var(--ms_btn-dark);
 }
 
 /* JUMBO */
 
 #ms_jumbotron {
     color: white;
+    padding-top: 100px;
     /* DEBUG */
     height: 500px;
     background-color: grey;
